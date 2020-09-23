@@ -11,6 +11,7 @@ type Unknown []byte
 
 // DecodeUnknown decodes an Unknown from byte array.
 func DecodeUnknown(b []byte) (Type, error) {
+	b = copyData(b)
 	return Unknown(b), nil
 }
 

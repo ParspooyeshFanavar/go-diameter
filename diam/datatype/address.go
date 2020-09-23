@@ -16,6 +16,7 @@ type Address []byte
 
 // DecodeAddress decodes an Address data type from byte array.
 func DecodeAddress(b []byte) (Type, error) {
+	b = copyData(b)
 	if len(b) < 3 {
 		return nil, fmt.Errorf("Not enough data to make an Address from byte[%d] = %+v", len(b), b)
 	}
