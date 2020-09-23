@@ -9,9 +9,9 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/fiorix/go-diameter/v4/diam/avp"
-	"github.com/fiorix/go-diameter/v4/diam/datatype"
-	"github.com/fiorix/go-diameter/v4/diam/dict"
+	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam/avp"
+	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam/datatype"
+	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam/dict"
 )
 
 var testAVP = [][]byte{ // Body of a CER message

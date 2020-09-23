@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fiorix/go-diameter/v4/diam"
-	"github.com/fiorix/go-diameter/v4/diam/diamtest"
+	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam"
+	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam/diamtest"
 )
 
 func TestCapabilitiesExchangeSCTP(t *testing.T) {

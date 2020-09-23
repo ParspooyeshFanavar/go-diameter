@@ -9,8 +9,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/fiorix/go-diameter/v4/diam/datatype"
-	"github.com/fiorix/go-diameter/v4/diam/dict"
+	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam/datatype"
+	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam/dict"
 )
 
 func init() {
