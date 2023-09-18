@@ -7,11 +7,11 @@ package sm
 import (
 	"fmt"
 
-	"github.com/fiorix/go-diameter/v4/diam"
-	"github.com/fiorix/go-diameter/v4/diam/avp"
-	"github.com/fiorix/go-diameter/v4/diam/datatype"
-	"github.com/fiorix/go-diameter/v4/diam/sm/smparser"
-	"github.com/fiorix/go-diameter/v4/diam/sm/smpeer"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam/avp"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam/datatype"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam/sm/smparser"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam/sm/smpeer"
 )
 
 // handleCER handles Capabilities-Exchange-Request messages.
