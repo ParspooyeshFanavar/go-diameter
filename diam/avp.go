@@ -52,18 +52,21 @@ func DecodeAVP(data []byte, application uint32, dictionary *dict.Parser) (*AVP, 
 // It uses the given application id and dictionary for decoding the bytes.
 func (a *AVP) DecodeFromBytes(data []byte, application uint32, dictionary *dict.Parser) error {
 	if len(data) < 8 {
-		return fmt.Errorf("Not enough data to decode AVP header: %d bytes", len(data))
+		return fmt.Errorf("not enough data to decode AVP header: %d bytes", len(data))
 	}
 	a.Code = binary.BigEndian.Uint32(data[0:4])
 	a.Flags = data[4]
 	a.Length = int(uint24to32(data[5:8]))
 	if len(data) < a.Length {
-		return fmt.Errorf("Not enough data to decode AVP: %d != %d",
-			len(data), a.Length)
+		err := fmt.Errorf("not enough data to decode AVP code=%v: %d != %d",
+			a.Code,
+			len(data), a.Length,
+		)
+		return err
 	}
 	data = data[:a.Length] // this cuts padded bytes off
 	if len(data) < 8 {
-		return fmt.Errorf("Not enough data to decode AVP header: %d bytes", len(data))
+		return fmt.Errorf("not enough data to decode AVP header: %d bytes", len(data))
 	}
 
 	var hdrLength int
@@ -85,8 +88,9 @@ func (a *AVP) DecodeFromBytes(data []byte, application uint32, dictionary *dict.
 	bodyLen := a.Length - hdrLength
 	if n := len(payload); n < bodyLen {
 		return fmt.Errorf(
-			"Not enough data to decode AVP: %d != %d",
+			"not enough data to decode AVP: %d != %d, code=%v",
 			hdrLength, n,
+			a.Code,
 		)
 	}
 	a.Data, err = datatype.Decode(dictAVP.Data.Type, payload)
