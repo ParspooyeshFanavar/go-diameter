@@ -1,3 +1,4 @@
+//go:build linux && !386
 // +build linux,!386
 
 // Copyright 2013-2020 go-diameter authors. All rights reserved.
