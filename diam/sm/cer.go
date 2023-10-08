@@ -7,11 +7,11 @@ package sm
 import (
 	"fmt"
 
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam"
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam/avp"
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam/datatype"
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam/sm/smparser"
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam/sm/smpeer"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam/avp"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam/datatype"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam/sm/smparser"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam/sm/smpeer"
 )
 
 // handleCER handles Capabilities-Exchange-Request messages.

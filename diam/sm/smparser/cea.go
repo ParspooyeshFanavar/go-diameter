@@ -7,8 +7,8 @@ package smparser
 import (
 	"fmt"
 
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam"
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam/datatype"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam/datatype"
 )
 
 // CEA is a Capabilities-Exchange-Answer message.

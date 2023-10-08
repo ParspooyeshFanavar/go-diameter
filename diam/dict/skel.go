@@ -10,7 +10,7 @@ import (
 	"encoding/xml"
 	"fmt"
 
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam/datatype"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam/datatype"
 )
 
 // File is the dictionary root element of a XML file.  See diam_base.xml.

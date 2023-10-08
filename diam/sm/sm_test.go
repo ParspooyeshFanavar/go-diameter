@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam"
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam/avp"
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam/datatype"
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam/diamtest"
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam/dict"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam/avp"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam/datatype"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam/diamtest"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam/dict"
 )
 
 func testResultCode(m *diam.Message, want uint32) bool {

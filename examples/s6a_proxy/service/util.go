@@ -7,8 +7,8 @@ import (
 	"math/rand"
 	"time"
 
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam"
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/examples/s6a_proxy/protos"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/examples/s6a_proxy/protos"
 	"google.golang.org/grpc/codes"
 )
 

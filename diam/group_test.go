@@ -9,9 +9,9 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam/avp"
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam/datatype"
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam/dict"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam/avp"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam/datatype"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam/dict"
 )
 
 // testGroupedAVP is a Vendor-Specific-Application-Id Grouped AVP.

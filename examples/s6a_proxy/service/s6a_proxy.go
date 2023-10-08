@@ -7,12 +7,12 @@ import (
 	"sync"
 	"time"
 
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam"
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam/avp"
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam/datatype"
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam/dict"
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam/sm"
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/examples/s6a_proxy/protos"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam/avp"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam/datatype"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam/dict"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam/sm"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/examples/s6a_proxy/protos"
 	"golang.org/x/net/context"
 )
 

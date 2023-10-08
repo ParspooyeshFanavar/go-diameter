@@ -14,9 +14,9 @@ import (
 	"sync"
 	"time"
 
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam/avp"
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam/datatype"
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam/dict"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam/avp"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam/datatype"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam/dict"
 )
 
 // MessageBufferLength is the default buffer length for Diameter messages.

@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam"
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam/diamtest"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam/diamtest"
 )
 
 func TestCapabilitiesExchangeSCTP(t *testing.T) {

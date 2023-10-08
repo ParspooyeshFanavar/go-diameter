@@ -4,7 +4,7 @@
 
 package smparser
 
-import "bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam"
+import "github.com/ParspooyeshFanavar/go-diameter/v4/diam"
 
 // DWA is a Device-Watchdog-Answer message.
 // See RFC 6733 section 5.5.2 for details.

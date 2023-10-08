@@ -11,7 +11,7 @@ import (
 	"net"
 	"time"
 
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam/dict"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam/dict"
 )
 
 // DialNetwork connects to the peer pointed to by network & addr and returns the Conn that

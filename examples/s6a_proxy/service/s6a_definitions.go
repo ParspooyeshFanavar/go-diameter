@@ -3,7 +3,7 @@
 package service
 
 import (
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam/datatype"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam/datatype"
 )
 
 // Definitions for AIA, see sample below:

@@ -19,7 +19,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"bitbucket.parspooyesh.com/ibscgw/go-diameter/v4/diam/dict"
+	"github.com/ParspooyeshFanavar/go-diameter/v4/diam/dict"
 )
 
 // The Handler interface allow arbitrary objects to be
