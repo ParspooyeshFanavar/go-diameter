@@ -20,7 +20,7 @@ import (
 var parentAppIds map[uint32]uint32 = map[uint32]uint32{
 	16777251: 4,
 	16777238: 4,
-	4:        1,
+	// 4:        1, // causes: Failed to decode AVP: Not enough data to decode AVP
 }
 
 // Apps return a list of all applications loaded in the Parser object.
